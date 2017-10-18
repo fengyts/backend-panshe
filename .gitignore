@@ -1,0 +1,18 @@
+.classpath
+.project
+.class
+.metadata/
+.recommenders/
+RemoteSystemsTempFiles/
+Servers/
+target/
+.settings/
+.svn/
+
+#.external*/
+.externalToolBuilders/
+mybatis-generate/
+generator*/
+
+.launch
+/.externalToolBuilders/org.eclipse.wst.jsdt.core.javascriptValidator (2).launch
