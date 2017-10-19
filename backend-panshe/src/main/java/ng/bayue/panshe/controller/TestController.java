@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 @RequestMapping(value = "/test/")
 public class TestController extends BaseController{
 
-	@RequestMapping(value = "list", method = {RequestMethod.POST})
+	@RequestMapping(value = "list", method = {RequestMethod.GET,RequestMethod.POST})
 	@ResponseBody
 	public ResultMessage list(){
 		
